@@ -45,7 +45,7 @@
 
 ## 6. Графики
 
-[Лабораторная работа №4](Lr4/Lab4_RFM_Clustering_for_Customer_Segmentation_(CRISP-DM).ipynb)
+[Лабораторная работа №4](Lab4_RFM_Clustering_for_Customer_Segmentation_(CRISP-DM).ipynb)
 
 ## 7. Выводы
 - RFM-кластеризация позволила выделить четкие группы клиентов с разными шаблонами поведения
