@@ -43,7 +43,7 @@
 - - PCA и UMAP-проекций
 - - Радарных диаграмм (Radar Charts)
 
-## 6. Визуализация
+## 6. Визуализация результатов кластеризации
 
 [Лабораторная работа №4](Lab4_RFM_Clustering_for_Customer_Segmentation_(CRISP-DM).ipynb)
 
