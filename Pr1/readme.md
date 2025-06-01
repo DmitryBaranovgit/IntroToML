@@ -25,8 +25,10 @@ notebooks/
 - Визуализация: распределения, boxplot, countplot
   
 ![Распределение доходов](income.png)
+*Распределение доходов*
 
-![Boxplot по количественным признакам](eda.png)
+![Boxplot по количественным признакам](quantitative_characteristics.png)
+*Boxplot по количественным признакам*
 
 - Преобразование категориальных признаков (OneHotEncoder, LabelEncoder)
 - Масштабированием числовых признаков (StandardScaler)
@@ -37,6 +39,7 @@ Baseline модели:
 - DummyClassifire (most_frequent)
 - Logistic Regression
 ![Logistic Regression](pipeline.png)
+*Logistic Regression*
 - Decision Tree
 
 Продвинутые модели:
@@ -47,8 +50,10 @@ Baseline модели:
 - MLPClassifier (нейросеть)
 
 ![Сравнение моделей](accuracy.png)
+*Сравнение моделей*
 
 ![Продвинутые модели: XGBoost, CatBoost, SVM, MLP](accuracy_extended.png)
+*Продвинутые модели: XGBoost, CatBoost, SVM, MLP*
 
 ## 3. Подбор гиперпараметров
 - GridSearchCV
@@ -60,10 +65,16 @@ Baseline модели:
 - - confusion matrix
 - - ROC/PR-кривые
 
-![ROC-кривая, PR-кривая](rocpr.png)
+![ROC-кривая](rocpr.png)
+*ROC-кривая*
+
+![PR-кривая](pr.png)
+*PR-кривая*
+
 - - обучение/валидация по эпохам (для MLP)
 
 ![Оценка качества модели](quality.png)
+*Оценка качества модели*
 
 ## 5. Интерпретация
 - Shap-значения (TreeExplainer): визуализация важности признаков через beeswarm plot
