@@ -40,9 +40,11 @@ notebooks/
 Baseline модели:
 - DummyClassifire (most_frequent)
 - Logistic Regression
+
 ![Logistic Regression](pipeline.png)
 
 *Logistic Regression*
+
 - Decision Tree
 
 Продвинутые модели:
