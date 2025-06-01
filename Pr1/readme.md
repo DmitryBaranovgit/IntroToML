@@ -6,13 +6,14 @@
 
 # Структура проекта
 project/
-- model.pkl # Итоговая обученная модель
-- app.py # JSON API с использованием Flask
+- [adult](adult.zip) # Исходные данные
+- [model.pkl](model.zip) # Итоговая обученная модель
+- [app.py](app.py) # JSON API с использованием Flask
 templates/
-- index.html # Веб-интерфейс (простая форма)
-- requirements.txt # Зависимости
+- [index.html](index.html) # Веб-интерфейс (простая форма)
+- [requirements.txt](requirements.txt) # Зависимости
 notebooks/
-- # Jupiter Notebook
+- [Jupiter Notebook](adult_census_income_classification.ipynb)
 
 # Этапы проекта
 ## 1. Исследование и подготовка данных
