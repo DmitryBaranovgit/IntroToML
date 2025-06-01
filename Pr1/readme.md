@@ -2,17 +2,18 @@
 
 # Описание
 Проект направлен на построение модели машинного обучения, способной предсказывать уровень дохода (>50K или <=50K) человека на основе данных переписи населения США (1994 год).
+
 Источник: `https://archive.ics.uci.edu/dataset/2/adult`
 
 # Структура проекта
 project/
-- [adult](adult.zip) # Исходные данные
-- [model.pkl](model.zip) # Итоговая обученная модель
-- [app.py](app.py) # JSON API с использованием Flask
+- [adult](adult.zip) - Исходные данные
+- [model.pkl](model.zip) - Итоговая обученная модель
+- [app.py](app.py) - JSON API с использованием Flask
 
 templates/
-- [index.html](index.html) # Веб-интерфейс (простая форма)
-- [requirements.txt](requirements.txt) # Зависимости
+- [index.html](index.html) - Веб-интерфейс (простая форма)
+- [requirements.txt](requirements.txt) - Зависимости
 
 notebooks/
 - [Jupiter Notebook](adult_census_income_classification.ipynb)
@@ -63,6 +64,7 @@ Baseline модели:
 `pip install -r requirements.txt
 python app.py
 `
+
 Перейти в браузере на: `http://localhost:5000/`
 
 Пример запроса к API:
