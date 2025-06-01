@@ -9,9 +9,11 @@ project/
 - [adult](adult.zip) # Исходные данные
 - [model.pkl](model.zip) # Итоговая обученная модель
 - [app.py](app.py) # JSON API с использованием Flask
+
 templates/
 - [index.html](index.html) # Веб-интерфейс (простая форма)
 - [requirements.txt](requirements.txt) # Зависимости
+
 notebooks/
 - [Jupiter Notebook](adult_census_income_classification.ipynb)
 
