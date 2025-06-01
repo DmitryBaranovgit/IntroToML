@@ -25,9 +25,11 @@ notebooks/
 - Визуализация: распределения, boxplot, countplot
   
 ![Распределение доходов](income.png)
+
 *Распределение доходов*
 
 ![Boxplot по количественным признакам](quantitative_characteristics.png)
+
 *Boxplot по количественным признакам*
 
 - Преобразование категориальных признаков (OneHotEncoder, LabelEncoder)
@@ -39,6 +41,7 @@ Baseline модели:
 - DummyClassifire (most_frequent)
 - Logistic Regression
 ![Logistic Regression](pipeline.png)
+
 *Logistic Regression*
 - Decision Tree
 
@@ -50,9 +53,11 @@ Baseline модели:
 - MLPClassifier (нейросеть)
 
 ![Сравнение моделей](accuracy.png)
+
 *Сравнение моделей*
 
 ![Продвинутые модели: XGBoost, CatBoost, SVM, MLP](accuracy_extended.png)
+
 *Продвинутые модели: XGBoost, CatBoost, SVM, MLP*
 
 ## 3. Подбор гиперпараметров
@@ -66,14 +71,17 @@ Baseline модели:
 - - ROC/PR-кривые
 
 ![ROC-кривая](rocpr.png)
+
 *ROC-кривая*
 
 ![PR-кривая](pr.png)
+
 *PR-кривая*
 
 - - обучение/валидация по эпохам (для MLP)
 
 ![Оценка качества модели](quality.png)
+
 *Оценка качества модели*
 
 ## 5. Интерпретация
