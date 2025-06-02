@@ -44,4 +44,4 @@
 
 ## Структура проекта
 - [Основной код и пояснения](student_survey_clustering_umap_kmeans.ipynb)
-- [Описание проекта](readme.md)
+- ![Описание проекта](readme.md)
